@@ -56,7 +56,7 @@ Tap Caps Lock alone = F13 (bindable in apps)
 
 ## 📄 Cheatsheet
 
-Open `cheatsheet.html` in a browser for a visual reference. Print-friendly.
+[View online](https://jordi9.github.io/hyper-meh-shortcuts/) or open `docs/index.html` locally. Print-friendly.
 
 ## ✅ Requirements
 

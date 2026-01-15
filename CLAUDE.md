@@ -8,7 +8,7 @@ Karabiner-Elements configuration for ES-ISO keyboard layout on macOS.
 ## Key Files
 
 - `es-dev-symbols.json` - Main Karabiner complex modifications config
-- `cheatsheet.html` - Visual reference (amber terminal aesthetic, print-friendly)
+- `docs/index.html` - Visual cheatsheet (amber terminal aesthetic, print-friendly, deployed to GitHub Pages)
 
 ## ES-ISO Layout Quirks
 
