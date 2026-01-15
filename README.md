@@ -1,15 +1,25 @@
-# ES-ISO Dev Symbols for Karabiner-Elements
+# ⌨️ ES-ISO Dev Symbols for Karabiner-Elements
 
 Meh key layer for programming symbols on Spanish (ES-ISO) keyboard layout.
 
-## What are Meh and Hyper?
+## 🤔 Why?
+
+Switching to US-International or Programmer Dvorak is the usual advice. I disagree.
+
+ES-ISO gives me direct access to accents and `ç` without dead keys or combos. I write in Catalan and Spanish daily - losing that isn't worth it. The "US is better for programming" argument also ignores that even Vim users often remap `()[]{}` because they're far from home row regardless of layout.
+
+The real problem with ES-ISO isn't the layout itself - it's the **Option gymnastics**. Symbols like `@`, `|`, `{`, `}`, `[`, `]`, `#` all require Option + key, which is awkward and breaks flow. Meanwhile, symbols like `?`, `-`, `_`, `<`, `>` are just Shift + key - totally fine.
+
+This project fixes the awkward symbols without abandoning the layout.
+
+## 🦸 What are Meh and Hyper?
 
 - **Meh**: Hold Caps Lock to activate Ctrl+Shift+Option. A dedicated layer for symbols.
 - **Hyper**: Hold Caps Lock + Cmd to activate Ctrl+Shift+Option+Cmd. A second layer for app launching, macros, etc.
 
 Both give you modifier combinations that virtually no app uses, so they won't conflict with existing shortcuts.
 
-## Layout
+## 🗺️ Layout
 
 ```
 Meh + Y  ->    Meh + U  (     Meh + I  )     Meh + O  =>
@@ -19,7 +29,7 @@ Meh + N  @     Meh + M  {     Meh + ,  }     Meh + .  #
 
 Tap Caps Lock alone = F13 (bindable in apps)
 
-## Key Mappings
+## 🔑 Key Mappings
 
 | Key | Symbol | ES-ISO Combo |
 |-----|--------|--------------|
@@ -37,18 +47,18 @@ Tap Caps Lock alone = F13 (bindable in apps)
 | Y | -> | - then > |
 | O | => | = then > |
 
-## Installation
+## 📦 Installation
 
 1. Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 2. Open Karabiner-Elements Preferences
 3. Go to Complex Modifications -> Add rule -> Import more rules from the Internet (or paste directly)
 4. Copy contents of `es-dev-symbols.json` and add as a custom rule
 
-## Cheatsheet
+## 📄 Cheatsheet
 
 Open `cheatsheet.html` in a browser for a visual reference. Print-friendly.
 
-## Requirements
+## ✅ Requirements
 
 - macOS
 - Karabiner-Elements
