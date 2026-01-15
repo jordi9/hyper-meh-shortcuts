@@ -10,7 +10,7 @@ ES-ISO gives me direct access to accents and `ç` without dead keys or combos. B
 
 The real problem with ES-ISO isn't the layout itself - it's the **Option gymnastics**. Symbols like `@`, `|`, `{`, `}`, `[`, `]`, `#` all require Option + key, which is awkward and breaks flow. Meanwhile, symbols like `?`, `-`, `_`, `<`, `>` are just Shift + key - totally fine.
 
-This project fixes the awkward symbols without abandoning the layout.
+This meh setup fixes the awkward symbols without abandoning the layout.
 
 ## 🦸 What are Meh and Hyper?
 
