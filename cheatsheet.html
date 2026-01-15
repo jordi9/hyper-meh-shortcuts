@@ -311,6 +311,23 @@
             color: var(--amber);
             margin-bottom: 16px;
         }
+
+        .repo-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .repo-link:hover {
+            color: var(--amber);
+        }
+
+        @media print {
+            .repo-link { display: none; }
+        }
     </style>
 </head>
 <body>
@@ -454,6 +471,7 @@
         <footer>
             <span class="modifier-badge">CAPS LOCK = CTRL + SHIFT + OPT</span>
             <p class="tip">Focus on the bracket columns first. Muscle memory kicks in after a week.</p>
+            <a href="https://github.com/jordi9/hyper-meh-shortcuts" class="repo-link" target="_blank">jordi9/hyper-meh-shortcuts</a>
         </footer>
     </div>
 </body>
