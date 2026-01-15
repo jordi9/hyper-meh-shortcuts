@@ -6,7 +6,7 @@ Meh key layer for programming symbols on Spanish (ES-ISO) keyboard layout.
 
 Switching to US-International or Programmer Dvorak is the usual advice. I disagree.
 
-ES-ISO gives me direct access to accents and `ç` without dead keys or combos. I write in Catalan and Spanish daily - losing that isn't worth it. The "US is better for programming" argument also ignores that even Vim users often remap `()[]{}` because they're far from home row regardless of layout.
+ES-ISO gives me direct access to accents and `ç` without dead keys or combos. Besides English, I write in Catalan and Spanish daily - losing that isn't worth it. The "US is better for programming" argument also ignores that even Helix/Vim (eg: vim-surround) users often remap `()[]{}` because they're far from home row regardless of layout.
 
 The real problem with ES-ISO isn't the layout itself - it's the **Option gymnastics**. Symbols like `@`, `|`, `{`, `}`, `[`, `]`, `#` all require Option + key, which is awkward and breaks flow. Meanwhile, symbols like `?`, `-`, `_`, `<`, `>` are just Shift + key - totally fine.
 
