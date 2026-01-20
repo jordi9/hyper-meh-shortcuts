@@ -27,6 +27,15 @@ N  @     M  {     ,  }     .  #
 
 Tap Caps Lock = F13
 
+## Current Hyper Layer Layout
+
+```
+Y ⇤home   U ←word   I word→   O end⇥
+H ←       J ↓       K ↑       L →
+```
+
+Hyper = Caps Lock + Cmd (Vim/Helix-style navigation)
+
 ## Adding a New Karabiner Shortcut
 
 1. Open Karabiner EventViewer (menu bar -> Karabiner icon -> Launch EventViewer)
@@ -60,4 +69,17 @@ Tap Caps Lock = F13
 
 6. For multi-char output (like ->), chain multiple keys in "to" array
 
-7. Paste updated JSON into Karabiner UI -> Complex Modifications -> Add rule
+7. For Hyper shortcuts, add "command" to mandatory modifiers:
+```json
+{
+    "type": "basic",
+    "description": "Hyper + X -> action",
+    "from": {
+        "key_code": "x",
+        "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
+    },
+    "to": [{ "key_code": "left_arrow" }]
+}
+```
+
+8. Paste updated JSON into Karabiner UI -> Complex Modifications -> Add rule
