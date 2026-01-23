@@ -30,7 +30,7 @@ Tap Caps Lock = F13
 ## Current Hyper Layer Layout
 
 ```
-Y ⇤home   U ←word   I word→   O end⇥
+Y ←word   U ⇤home   I end⇥   O word→
 H ←       J ↓       K ↑       L →
 ```
 

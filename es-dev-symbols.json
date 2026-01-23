@@ -144,39 +144,39 @@
         },
         {
             "type": "basic",
-            "description": "Hyper + Y → Home",
+            "description": "Hyper + Y → Word ←",
             "from": {
                 "key_code": "y",
-                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
-            },
-            "to": [{ "key_code": "left_arrow", "modifiers": ["command"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Hyper + U → Word ←",
-            "from": {
-                "key_code": "u",
                 "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
             },
             "to": [{ "key_code": "left_arrow", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
-            "description": "Hyper + I → Word →",
+            "description": "Hyper + U → Home",
+            "from": {
+                "key_code": "u",
+                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
+            },
+            "to": [{ "key_code": "left_arrow", "modifiers": ["command"] }]
+        },
+        {
+            "type": "basic",
+            "description": "Hyper + I → End",
             "from": {
                 "key_code": "i",
                 "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
             },
-            "to": [{ "key_code": "right_arrow", "modifiers": ["option"] }]
+            "to": [{ "key_code": "right_arrow", "modifiers": ["command"] }]
         },
         {
             "type": "basic",
-            "description": "Hyper + O → End",
+            "description": "Hyper + O → Word →",
             "from": {
                 "key_code": "o",
                 "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
             },
-            "to": [{ "key_code": "right_arrow", "modifiers": ["command"] }]
+            "to": [{ "key_code": "right_arrow", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
