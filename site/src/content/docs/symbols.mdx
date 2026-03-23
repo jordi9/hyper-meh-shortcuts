@@ -1,0 +1,74 @@
+---
+title: Symbols
+description: Programming symbols via the Meh layer (Caps Lock + Key).
+---
+
+import Keyboard from '../../../src/components/Keyboard.astro';
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+Hold **Caps Lock** and press a key to type programming symbols that are awkward to reach on the ES-ISO layout.
+
+<Keyboard rows={[
+  [
+    { label: "Y", symbol: "->" },
+    { label: "U", symbol: "(" },
+    { label: "I", symbol: ")" },
+    { label: "O", symbol: "=>" },
+  ],
+  [
+    { label: "H", symbol: "`" },
+    { label: "J", symbol: "[" },
+    { label: "K", symbol: "]" },
+    { label: "L", symbol: "|" },
+  ],
+  [
+    { label: "N", symbol: "@" },
+    { label: "M", symbol: "{" },
+    { label: ",", symbol: "}" },
+    { label: ".", symbol: "#" },
+  ],
+]} />
+
+## Brackets
+
+Stacked vertically, growing top to bottom. Left opens, right closes.
+
+| Shortcut | Output |
+|----------|--------|
+| `Meh + U` | `(` |
+| `Meh + I` | `)` |
+| `Meh + J` | `[` |
+| `Meh + K` | `]` |
+| `Meh + M` | `{` |
+| `Meh + ,` | `}` |
+
+## Arrows
+
+| Shortcut | Output |
+|----------|--------|
+| `Meh + Y` | `->` |
+| `Meh + O` | `=>` |
+
+## Other symbols
+
+| Shortcut | Output |
+|----------|--------|
+| `Meh + H` | `` ` `` |
+| `Meh + L` | `\|` |
+| `Meh + ñ` | `~` |
+| `Meh + N` | `@` |
+| `Meh + .` | `#` |
+
+## Mnemonics
+
+<CardGrid>
+  <Card title="( )  —  U / I">c**U**rved</Card>
+  <Card title="[ ]  —  J / K">**J** hooks, **K** kloses</Card>
+  <Card title="{ }  —  M / ,">**M**ustache</Card>
+  <Card title="-> =>  —  Y / O">**Y**onder, **O**utput</Card>
+  <Card title="`  —  H">**H**ighlight</Card>
+  <Card title="|  —  L">**L**ine</Card>
+  <Card title="~  —  ñ">Tilde on **ñ**</Card>
+  <Card title="@  —  N">**N**ame</Card>
+  <Card title="#  —  .">Fancy **.**</Card>
+</CardGrid>

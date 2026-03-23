@@ -1,0 +1,102 @@
+---
+interface Key {
+  label: string;
+  symbol: string;
+}
+
+interface Props {
+  rows: Key[][];
+}
+
+const { rows } = Astro.props;
+const cols = Math.max(...rows.map(r => r.length));
+const keys = rows.flat();
+---
+
+<div class="keyboard-wrapper not-content">
+  <div class="keyboard" style={`--cols: ${cols}`}>
+    {keys.map((key) => (
+      <div class="key">
+        <span class="key-label">{key.label}</span>
+        <span class="key-symbol">{key.symbol}</span>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .keyboard-wrapper {
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+
+  .keyboard {
+    display: inline-grid;
+    grid-template-columns: repeat(var(--cols), 80px);
+    grid-auto-rows: 80px;
+    gap: 8px;
+  }
+
+  .key {
+    background: linear-gradient(145deg, var(--sl-color-gray-4), var(--sl-color-gray-5));
+    border: 1px solid var(--sl-color-gray-4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 0 var(--sl-color-gray-6), 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    cursor: default;
+    position: relative;
+  }
+
+  .key::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    right: 4px;
+    height: 40%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 100%);
+    border-radius: 4px 4px 0 0;
+    pointer-events: none;
+  }
+
+  .key:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 0 var(--sl-color-gray-6), 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .key-label {
+    font-family: var(--sl-font-mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--sl-color-gray-3);
+    margin-bottom: 0.25rem;
+  }
+
+  .key-symbol {
+    font-family: var(--sl-font-mono);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--sl-color-accent-high);
+    line-height: 1;
+  }
+
+  @media (max-width: 480px) {
+    .keyboard {
+      grid-template-columns: repeat(var(--cols), 60px);
+      grid-auto-rows: 60px;
+      gap: 6px;
+    }
+
+    .key-label { font-size: 0.65rem; }
+    .key-symbol { font-size: 1.1rem; }
+    .keyboard-wrapper { padding: 1rem; }
+  }
+</style>

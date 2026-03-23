@@ -1,0 +1,43 @@
+---
+title: Meh & Hyper
+description: Custom keyboard layers for ES-ISO layout on macOS.
+template: splash
+hero:
+  tagline: Keyboard shortcuts for the ES-ISO layout on macOS — symbols, navigation, app launching, and window management.
+  actions:
+    - text: Symbols
+      link: /hyper-meh-shortcuts/symbols/
+      icon: right-arrow
+    - text: All hotkeys
+      link: /hyper-meh-shortcuts/all/
+      variant: minimal
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## How it works
+
+**Caps Lock** is remapped via Karabiner-Elements into two modifier layers:
+
+| Layer | Activation | Modifier combo |
+|-------|-----------|----------------|
+| **Meh** | Caps Lock held | `Ctrl + Shift + Option` |
+| **Hyper** | Caps Lock + Cmd held | `Ctrl + Shift + Option + Cmd` |
+
+Tapping Caps Lock alone sends **F13**.
+
+<CardGrid>
+  <Card title="Symbols" icon="pencil">
+    **Meh + Key** — Brackets, arrows, backtick, pipe, tilde, `@`, `#`. All within reach of the home row.
+  </Card>
+  <Card title="Navigation" icon="right-caret">
+    **Hyper + HJKL** — Vim-style arrow keys without leaving the home row.
+  </Card>
+  <Card title="App Launching" icon="rocket">
+    **Meh + Number** — Instant app switching via Raycast hotkeys.
+  </Card>
+  <Card title="Window Management" icon="laptop">
+    **Alt + HJKL** and workspaces — Tiling window manager via AeroSpace.
+  </Card>
+</CardGrid>
