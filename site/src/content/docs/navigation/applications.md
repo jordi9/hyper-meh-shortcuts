@@ -7,16 +7,17 @@ description: Instant app switching via Raycast hotkeys on the Meh layer.
 
 ## App hotkeys
 
-| Shortcut  | App           |
-|-----------|---------------|
-| `Meh + A` | Ghostty       |
-| `Meh + S` | IntelliJ IDEA |
-| `Meh + F` | Ferdium       |
-| `Meh + G` | Google Gemini |
-| `Meh + X` | Roon          |
-| `Meh + V` | Vivaldi       |
-| `Meh + R` | Notion        |
-| `Meh + T` | TickTick      |
+| Shortcut  | App             |
+|-----------|-----------------|
+| `Meh + A` | Ghostty         |
+| `Meh + S` | IntelliJ IDEA   |
+| `Meh + D` | DaVinci Resolve |
+| `Meh + F` | Ferdium         |
+| `Meh + G` | Google Gemini   |
+| `Meh + X` | Roon            |
+| `Meh + V` | Vivaldi         |
+| `Meh + R` | Notion          |
+| `Meh + T` | TickTick        |
 
 ## Other Raycast hotkeys
 
