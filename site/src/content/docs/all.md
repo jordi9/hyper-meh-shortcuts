@@ -3,69 +3,77 @@ title: All Hotkeys
 description: Every shortcut in one page.
 ---
 
-## Symbols
+## Symbols (Meh + Key)
 
-| Shortcut | Output |
-|----------|--------|
-| `Meh + U` | `(` |
-| `Meh + I` | `)` |
-| `Meh + J` | `[` |
-| `Meh + K` | `]` |
-| `Meh + M` | `{` |
-| `Meh + ,` | `}` |
-| `Meh + Y` | `->` |
-| `Meh + O` | `=>` |
-| `Meh + H` | `` ` `` |
-| `Meh + L` | `\|` |
-| `Meh + ñ` | `~` |
-| `Meh + N` | `@` |
-| `Meh + .` | `#` |
+| Shortcut  | Output  |
+|-----------|---------|
+| `Meh + U` | `{`     |
+| `Meh + I` | `}`     |
+| `Meh + O` | `[`     |
+| `Meh + P` | `]`     |
+| `Meh + N` | `->`    |
+| `Meh + M` | `=>`    |
+| `Meh + Y` | `@`     |
+| `Meh + ,` | `` ` `` |
+| `Meh + .` | `#`     |
+| `Meh + -` | `\|`    |
+| `Meh + ñ` | `~`     |
 
-## Cursor
+## Cursor (Hyper + Key)
 
-| Shortcut | Action |
-|----------|--------|
-| `Hyper + H` | Left |
-| `Hyper + J` | Down |
-| `Hyper + K` | Up |
-| `Hyper + L` | Right |
+| Shortcut     | Action |
+|--------------|--------|
+| `Hyper + H`  | Left   |
+| `Hyper + J`  | Down   |
+| `Hyper + K`  | Up     |
+| `Hyper + L`  | Right  |
 
-## Windows
+## Window focus (Meh + Key)
 
-| Shortcut | Action |
-|----------|--------|
-| `Alt + H` | Focus left |
-| `Alt + J` | Focus down |
-| `Alt + K` | Focus up |
-| `Alt + L` | Focus right |
-| `Alt + Shift + H` | Move window left |
-| `Alt + Shift + J` | Move window down |
-| `Alt + Shift + K` | Move window up |
-| `Alt + Shift + L` | Move window right |
-| `Alt + T` | Toggle tiles |
-| `Alt + ,` | Toggle accordion |
-| `Alt + F` | Fullscreen |
-| `Meh + Enter` | Fullscreen (alternate) |
-| `Hyper + T` | Toggle floating/tiling |
-| `Meh + 1-9` | Switch to workspace |
-| `Meh + Z` | Switch to workspace Z |
-| `Hyper + 1-9` | Move window to workspace |
-| `Hyper + Z` | Move window to workspace Z |
-| `Alt + Tab` | Previous workspace |
-| `Alt + Shift + Tab` | Move workspace to next monitor |
-| `Meh + 0` | Shrink by 50px |
-| `Meh + P` | Grow by 50px |
+| Shortcut  | Action      |
+|-----------|-------------|
+| `Meh + H` | Focus left  |
+| `Meh + J` | Focus down  |
+| `Meh + K` | Focus up    |
+| `Meh + L` | Focus right |
 
-## Applications
+## Workspaces (Meh + Number)
 
-| Shortcut | App |
-|----------|-----|
-| `Meh + 0` | Ghostty |
-| `Meh + 1` | IntelliJ IDEA |
-| `Meh + 3` | Ferdium |
-| `Meh + 5` | Google Gemini |
-| `Meh + 7` | Roon |
-| `Meh + 9` | Vivaldi |
-| `Hyper + N` | Notion |
+| Shortcut    | Action                  |
+|-------------|-------------------------|
+| `Meh + 1-9` | Switch to workspace    |
+| `Meh + Z`   | Workspace Z (monitor)  |
+| `Alt + Tab`  | Previous workspace     |
+
+## Manage mode (Meh + W, then key)
+
+| Key              | Action                       |
+|------------------|------------------------------|
+| `H/J/K/L`       | Move window                  |
+| `Shift + H/J/K/L` | Join with direction        |
+| `1-9, Z`         | Send window to workspace    |
+| `T`              | Toggle tiles                |
+| `S`              | Toggle accordion            |
+| `F`              | Fullscreen                  |
+| `Shift + F`      | Toggle floating/tiling      |
+| `E`              | Balance sizes               |
+| `-` / `=`        | Shrink / grow               |
+| `Tab`            | Move workspace to monitor   |
+| `R`              | Reset layout                |
+| `Shift + R`      | Reload config               |
+| `Backspace`      | Close all but current       |
+| `Esc`            | Exit manage mode            |
+
+## Applications (Meh + Key via Raycast)
+
+| Shortcut  | App           |
+|-----------|---------------|
+| `Meh + A` | Ghostty       |
+| `Meh + S` | IntelliJ IDEA |
+| `Meh + F` | Ferdium       |
+| `Meh + G` | Google Gemini |
+| `Meh + X` | Roon          |
+| `Meh + V` | Vivaldi       |
+| `Meh + R` | Notion        |
+| `Meh + T` | TickTick      |
 | `Option + Cmd + 8` | Clipboard History |
-| `Shift + Cmd + E` | TickTick |

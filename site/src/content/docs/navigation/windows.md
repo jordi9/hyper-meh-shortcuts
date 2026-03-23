@@ -3,35 +3,16 @@ title: Windows
 description: Tiling window management via AeroSpace.
 ---
 
-Tiling windows via [AeroSpace](https://github.com/nikitabobko/AeroSpace). All bindings use the `Alt` modifier.
+Window management via [AeroSpace](https://github.com/nikitabobko/AeroSpace). Focus and workspaces in main mode, everything else in manage mode.
 
 ## Focus
 
 | Shortcut | Action |
 |----------|--------|
-| `Alt + H` | Focus left |
-| `Alt + J` | Focus down |
-| `Alt + K` | Focus up |
-| `Alt + L` | Focus right |
-
-## Move windows
-
-| Shortcut | Action |
-|----------|--------|
-| `Alt + Shift + H` | Move window left |
-| `Alt + Shift + J` | Move window down |
-| `Alt + Shift + K` | Move window up |
-| `Alt + Shift + L` | Move window right |
-
-## Layout
-
-| Shortcut | Action |
-|----------|--------|
-| `Alt + T` | Toggle tiles (horizontal/vertical) |
-| `Alt + ,` | Toggle accordion (horizontal/vertical) |
-| `Alt + F` | Fullscreen |
-| `Meh + Enter` | Fullscreen (alternate) |
-| `Hyper + T` | Toggle floating/tiling |
+| `Meh + H` | Focus left |
+| `Meh + J` | Focus down |
+| `Meh + K` | Focus up |
+| `Meh + L` | Focus right |
 
 ## Workspaces
 
@@ -39,31 +20,54 @@ Tiling windows via [AeroSpace](https://github.com/nikitabobko/AeroSpace). All bi
 |----------|--------|
 | `Meh + 1-9` | Switch to workspace |
 | `Meh + Z` | Switch to workspace Z (secondary monitor) |
-| `Hyper + 1-9` | Move window to workspace |
-| `Hyper + Z` | Move window to workspace Z |
 | `Alt + Tab` | Previous workspace |
-| `Alt + Shift + Tab` | Move workspace to next monitor |
 
-## Resize
+## Manage mode
 
-| Shortcut | Action |
-|----------|--------|
-| `Meh + 0` | Shrink by 50px |
-| `Meh + P` | Grow by 50px |
+Press `Meh + W` to enter manage mode. Single keystrokes, no modifiers needed.
 
-## Service mode
-
-Press `Hyper + S` to enter service mode, then:
+### Move windows
 
 | Key | Action |
 |-----|--------|
-| `Esc` | Reload config and exit |
+| `H` | Move left |
+| `J` | Move down |
+| `K` | Move up |
+| `L` | Move right |
+
+### Send to workspace
+
+| Key | Action |
+|-----|--------|
+| `1-9` | Send window to workspace (exits manage mode) |
+| `Z` | Send window to workspace Z (exits manage mode) |
+
+### Layout
+
+| Key | Action |
+|-----|--------|
+| `T` | Toggle tiles (horizontal/vertical) |
+| `S` | Toggle accordion (horizontal/vertical) |
+| `F` | Fullscreen (exits manage mode) |
+| `Shift + F` | Toggle floating/tiling (exits manage mode) |
+| `E` | Balance sizes |
+
+### Resize
+
+| Key | Action |
+|-----|--------|
+| `-` | Shrink by 50px |
+| `=` | Grow by 50px |
+
+### Other
+
+| Key | Action |
+|-----|--------|
+| `Shift + H/J/K/L` | Join with direction |
+| `Tab` | Move workspace to next monitor |
 | `R` | Reset (flatten) workspace layout |
-| `F` | Toggle floating/tiling |
+| `Shift + R` | Reload config |
 | `Backspace` | Close all windows but current |
-| `Alt + Shift + H` | Join with left |
-| `Alt + Shift + J` | Join with down |
-| `Alt + Shift + K` | Join with up |
-| `Alt + Shift + L` | Join with right |
+| `Esc` | Exit manage mode |
 
 Config file: `~/.aerospace.toml`

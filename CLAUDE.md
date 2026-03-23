@@ -2,13 +2,14 @@
 
 Karabiner-Elements configuration for ES-ISO keyboard layout on macOS.
 
-- **Meh**: Caps Lock held = Ctrl+Shift+Option (programming symbols layer)
-- **Hyper**: Caps Lock + Cmd = Ctrl+Shift+Option+Cmd (app launching, macros)
+- **Meh**: Caps Lock held = Ctrl+Shift+Option (symbols, window focus, workspaces, apps)
+- **Hyper**: Caps Lock + Cmd = Ctrl+Shift+Option+Cmd (cursor HJKL)
 
 ## Key Files
 
 - `es-dev-symbols.json` - Main Karabiner complex modifications config
-- `docs/index.html` - Visual cheatsheet (amber terminal aesthetic, print-friendly, deployed to GitHub Pages)
+- `~/.aerospace.toml` - AeroSpace tiling window manager config
+- `site/` - Astro Starlight documentation site (deployed to GitHub Pages)
 
 ## ES-ISO Layout Quirks
 
@@ -17,24 +18,31 @@ Karabiner-Elements configuration for ES-ISO keyboard layout on macOS.
 - Many symbols need "option" modifier, not "shift"
 - Always use EventViewer to get exact keycodes
 
-## Current Meh Layer Layout
+## Current Meh Layer — Symbols
 
 ```
-Y  ->    U  (     I  )     O  =>
-H  `     J  [     K  ]     L  |     ñ  ~
-N  @     M  {     ,  }     .  #
+Y  @     U  {     I  }     O  [     P  ]
+                                     ñ  ~
+N  ->    M  =>    ,  `     .  #     -  |
 ```
 
-Tap Caps Lock = F13
+## Current Meh Layer — Window Management (AeroSpace)
 
-## Current Hyper Layer Layout
+- `Meh + HJKL` = focus direction
+- `Meh + 1-9, Z` = switch workspace
+- `Meh + W` = enter manage mode (single keys for move, layout, resize)
+
+## Current Meh Layer — Apps (Raycast)
+
+- `Meh + A/S/F/G/X/V/R/T` = app hotkeys
+
+## Current Hyper Layer — Cursor
 
 ```
-Y ←word   U ⇤home   I end⇥   O word→
 H ←       J ↓       K ↑       L →
 ```
 
-Hyper = Caps Lock + Cmd (Vim/Helix-style navigation)
+Tap Caps Lock = F13
 
 ## Adding a New Karabiner Shortcut
 

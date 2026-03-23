@@ -3,7 +3,7 @@
     "manipulators": [
         {
             "type": "basic",
-            "description": "Caps Lock → Meh (held) / Escape (tapped)",
+            "description": "Caps Lock → Meh (held) / F13 (tapped)",
             "from": {
                 "key_code": "caps_lock",
                 "modifiers": { "optional": ["any"] }
@@ -18,93 +18,48 @@
         },
         {
             "type": "basic",
-            "description": "Meh + H → `",
+            "description": "Meh + Y → @",
             "from": {
-                "key_code": "h",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "open_bracket", "modifiers": [] }, { "key_code": "spacebar", "modifiers": [] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + L → |",
-            "from": {
-                "key_code": "l",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "1", "modifiers": ["option"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + U → (",
-            "from": {
-                "key_code": "u",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "8", "modifiers": ["shift"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + I → )",
-            "from": {
-                "key_code": "i",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "9", "modifiers": ["shift"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + J → [",
-            "from": {
-                "key_code": "j",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "open_bracket", "modifiers": ["option"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + K → ]",
-            "from": {
-                "key_code": "k",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "close_bracket", "modifiers": ["option"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + M → {",
-            "from": {
-                "key_code": "m",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "quote", "modifiers": ["option"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + , → }",
-            "from": {
-                "key_code": "comma",
-                "modifiers": { "mandatory": ["control", "shift", "option"] }
-            },
-            "to": [{ "key_code": "backslash", "modifiers": ["option"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Meh + N → @",
-            "from": {
-                "key_code": "n",
+                "key_code": "y",
                 "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
             "to": [{ "key_code": "2", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
-            "description": "Meh + . → #",
+            "description": "Meh + U → {",
             "from": {
-                "key_code": "period",
+                "key_code": "u",
                 "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
-            "to": [{ "key_code": "3", "modifiers": ["option"] }]
+            "to": [{ "key_code": "quote", "modifiers": ["option"] }]
+        },
+        {
+            "type": "basic",
+            "description": "Meh + I → }",
+            "from": {
+                "key_code": "i",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
+            },
+            "to": [{ "key_code": "backslash", "modifiers": ["option"] }]
+        },
+        {
+            "type": "basic",
+            "description": "Meh + O → [",
+            "from": {
+                "key_code": "o",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
+            },
+            "to": [{ "key_code": "open_bracket", "modifiers": ["option"] }]
+        },
+        {
+            "type": "basic",
+            "description": "Meh + P → ]",
+            "from": {
+                "key_code": "p",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
+            },
+            "to": [{ "key_code": "close_bracket", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
@@ -120,9 +75,9 @@
         },
         {
             "type": "basic",
-            "description": "Meh + Y → ->",
+            "description": "Meh + N → ->",
             "from": {
-                "key_code": "y",
+                "key_code": "n",
                 "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
             "to": [
@@ -132,9 +87,9 @@
         },
         {
             "type": "basic",
-            "description": "Meh + O → =>",
+            "description": "Meh + M → =>",
             "from": {
-                "key_code": "o",
+                "key_code": "m",
                 "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
             "to": [
@@ -144,39 +99,30 @@
         },
         {
             "type": "basic",
-            "description": "Hyper + Y → Word ←",
+            "description": "Meh + , → `",
             "from": {
-                "key_code": "y",
-                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
+                "key_code": "comma",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
-            "to": [{ "key_code": "left_arrow", "modifiers": ["option"] }]
+            "to": [{ "key_code": "open_bracket", "modifiers": [] }, { "key_code": "spacebar", "modifiers": [] }]
         },
         {
             "type": "basic",
-            "description": "Hyper + U → Home",
+            "description": "Meh + . → #",
             "from": {
-                "key_code": "u",
-                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
+                "key_code": "period",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
-            "to": [{ "key_code": "left_arrow", "modifiers": ["command"] }]
+            "to": [{ "key_code": "3", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
-            "description": "Hyper + I → End",
+            "description": "Meh + - → |",
             "from": {
-                "key_code": "i",
-                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
+                "key_code": "slash",
+                "modifiers": { "mandatory": ["control", "shift", "option"] }
             },
-            "to": [{ "key_code": "right_arrow", "modifiers": ["command"] }]
-        },
-        {
-            "type": "basic",
-            "description": "Hyper + O → Word →",
-            "from": {
-                "key_code": "o",
-                "modifiers": { "mandatory": ["control", "shift", "option", "command"] }
-            },
-            "to": [{ "key_code": "right_arrow", "modifiers": ["option"] }]
+            "to": [{ "key_code": "1", "modifiers": ["option"] }]
         },
         {
             "type": "basic",
