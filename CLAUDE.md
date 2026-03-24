@@ -9,7 +9,7 @@ Karabiner-Elements configuration for ES-ISO keyboard layout on macOS.
 
 - `es-dev-symbols.json` - Main Karabiner complex modifications config
 - `~/.aerospace.toml` - AeroSpace tiling window manager config
-- `site/` - Astro Starlight documentation site (deployed to GitHub Pages)
+- Astro Starlight documentation site at repo root (deployed to GitHub Pages)
 
 ## ES-ISO Layout Quirks
 
