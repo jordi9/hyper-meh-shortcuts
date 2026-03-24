@@ -5,6 +5,7 @@ description: Programming symbols via the Meh layer (Caps Lock + Key).
 
 import Keyboard from '../../../src/components/Keyboard.astro';
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import Meh from '../../../src/components/Meh.astro';
 
 Hold **Caps Lock** and press a key to type programming symbols that are awkward to reach on the ES-ISO layout.
 
@@ -33,24 +34,24 @@ Left opens, right closes. Top row, left to right.
 
 | Shortcut  | Output |
 |-----------|--------|
-| `✧ U` | `{`    |
-| `✧ I` | `}`    |
-| `✧ O` | `[`    |
-| `✧ P` | `]`    |
+| <Meh key="U" /> | `{`    |
+| <Meh key="I" /> | `}`    |
+| <Meh key="O" /> | `[`    |
+| <Meh key="P" /> | `]`    |
 
 ## Arrows
 
 | Shortcut  | Output |
 |-----------|--------|
-| `✧ N` | `->`   |
-| `✧ M` | `=>`   |
+| <Meh key="N" /> | `->`   |
+| <Meh key="M" /> | `=>`   |
 
 ## Other symbols
 
 | Shortcut  | Output  |
 |-----------|---------|
-| `✧ Y` | `@`     |
-| `✧ ,` | `` ` `` |
-| `✧ .` | `#`     |
-| `✧ -` | `\|`    |
-| `✧ ñ` | `~`     |
+| <Meh key="Y" /> | `@`     |
+| <Meh key="," /> | `` ` `` |
+| <Meh key="." /> | `#`     |
+| <Meh key="-" /> | `\|`    |
+| <Meh key="ñ" /> | `~`     |

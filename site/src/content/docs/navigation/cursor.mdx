@@ -3,13 +3,15 @@ title: Cursor
 description: Vim-style arrow keys via the Hyper layer (Caps Lock + Cmd + HJKL).
 ---
 
+import Hyper from '../../../../src/components/Hyper.astro';
+
 Hold **Caps Lock + Cmd** and press HJKL for arrow keys without leaving the home row.
 
 | Shortcut | Action |
 |----------|--------|
-| `✦ H` | Left |
-| `✦ J` | Down |
-| `✦ K` | Up |
-| `✦ L` | Right |
+| <Hyper key="H" /> | Left |
+| <Hyper key="J" /> | Down |
+| <Hyper key="K" /> | Up |
+| <Hyper key="L" /> | Right |
 
 Standard Vim layout. Works everywhere in macOS — text editors, browsers, Finder, dialogs. Combine with `Shift` for text selection.
