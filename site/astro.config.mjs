@@ -17,7 +17,7 @@ export default defineConfig({
 				{
 					label: 'Navigating',
 					items: [
-						{ label: 'Cursor', slug: 'navigation/hotkeys' },
+						{ label: 'Cursor', slug: 'navigation/cursor' },
 						{ label: 'Windows', slug: 'navigation/windows' },
 						{ label: 'Applications', slug: 'navigation/applications' },
 					],

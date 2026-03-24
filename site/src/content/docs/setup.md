@@ -12,7 +12,7 @@ description: How to add new shortcuts and ES-ISO layout quirks.
 ```json
 {
     "type": "basic",
-    "description": "Meh + X -> symbol",
+    "description": "✧ X -> symbol",
     "from": {
         "key_code": "x",
         "modifiers": { "mandatory": ["control", "shift", "option"] }

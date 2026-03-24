@@ -3,21 +3,21 @@ title: Applications
 description: Instant app switching via Raycast hotkeys on the Meh layer.
 ---
 
-**Meh + Number** opens or focuses an app instantly via Raycast. No launcher UI, no searching.
+**✧ Letter** opens or focuses an app instantly via Raycast. No launcher UI, no searching.
 
 ## App hotkeys
 
 | Shortcut  | App             |
 |-----------|-----------------|
-| `Meh + A` | Ghostty         |
-| `Meh + S` | IntelliJ IDEA   |
-| `Meh + D` | DaVinci Resolve |
-| `Meh + F` | Ferdium         |
-| `Meh + G` | Google Gemini   |
-| `Meh + X` | Roon            |
-| `Meh + V` | Vivaldi         |
-| `Meh + R` | Notion          |
-| `Meh + T` | TickTick        |
+| `✧ A` | Ghostty         |
+| `✧ S` | IntelliJ IDEA   |
+| `✧ D` | DaVinci Resolve |
+| `✧ F` | Ferdium         |
+| `✧ G` | Google Gemini   |
+| `✧ X` | Roon            |
+| `✧ V` | Vivaldi         |
+| `✧ R` | Notion          |
+| `✧ T` | TickTick        |
 
 ## Other Raycast hotkeys
 

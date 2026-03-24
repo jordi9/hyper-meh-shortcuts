@@ -9,22 +9,22 @@ Window management via [AeroSpace](https://github.com/nikitabobko/AeroSpace). Foc
 
 | Shortcut | Action |
 |----------|--------|
-| `Meh + H` | Focus left |
-| `Meh + J` | Focus down |
-| `Meh + K` | Focus up |
-| `Meh + L` | Focus right |
+| `✧ H` | Focus left |
+| `✧ J` | Focus down |
+| `✧ K` | Focus up |
+| `✧ L` | Focus right |
 
 ## Workspaces
 
 | Shortcut | Action |
 |----------|--------|
-| `Meh + 1-9` | Switch to workspace |
-| `Meh + Z` | Switch to workspace Z (secondary monitor) |
+| `✧ 1-9` | Switch to workspace |
+| `✧ Z` | Switch to workspace Z (secondary monitor) |
 | `Alt + Tab` | Previous workspace |
 
 ## Manage mode
 
-Press `Meh + W` to enter manage mode. Single keystrokes, no modifiers needed.
+Press `✧ W` to enter manage mode. Single keystrokes, no modifiers needed.
 
 ### Move windows
 
@@ -47,8 +47,8 @@ Press `Meh + W` to enter manage mode. Single keystrokes, no modifiers needed.
 | Key | Action |
 |-----|--------|
 | `T` | Toggle tiles (horizontal/vertical) |
-| `S` | Toggle accordion (horizontal/vertical) |
-| `F` | Fullscreen (exits manage mode) |
+| `A` | Toggle accordion (horizontal/vertical) |
+| `Enter + F` | Fullscreen (exits manage mode) |
 | `Shift + F` | Toggle floating/tiling (exits manage mode) |
 | `E` | Balance sizes |
 
@@ -56,8 +56,8 @@ Press `Meh + W` to enter manage mode. Single keystrokes, no modifiers needed.
 
 | Key | Action |
 |-----|--------|
-| `-` | Shrink by 50px |
-| `=` | Grow by 50px |
+| `o` | Shrink by 50px |
+| `p` | Grow by 50px |
 
 ### Other
 
